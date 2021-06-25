@@ -1,7 +1,7 @@
 # Count_homopolymer-stretch
 This program can find out if the area around the variant is homopolymer stretch
 
-##Preparing
+## Preparing  
 1.Prepare bed file from your vcf file  
   -Echange vcf to bed  
    -Please run command as below  
@@ -11,5 +11,5 @@ This program can find out if the area around the variant is homopolymer stretch
 Here we will describe how to use bedtools  
 bedtools getfasta -fi /reference/hg38/Homo_sapiens_assembly38.fasta -bed vcffile.bed  -fo fasta.bed  
 
-##Run count program  
+## Run count program  
 perl count_homopolymer.pl
