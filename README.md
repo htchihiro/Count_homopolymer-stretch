@@ -1,7 +1,5 @@
 # Count_homopolymer-stretch
 
-====
-
 Overview
 This program can find out if the area around the variant is homopolymer stretch
 
@@ -22,7 +20,7 @@ $ wget https://github.com/arq5x/bedtools2/releases/download/v2.30.0/bedtools.sta
 Here we will describe how to use bedtools  
 bedtools getfasta -fi /reference/hg38/Homo_sapiens_assembly38.fasta -bed vcffile.bed  -fo fasta.bed  
 
-### Run count program  
+#### 3. Run count program  
 perl count_homopolymer.pl  
 
 ## Note
